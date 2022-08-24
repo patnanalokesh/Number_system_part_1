@@ -11,7 +11,7 @@
 
 # print(5/0)   # ZeroDivisionError: division by zero  {in mathematics anything by 0 is given as infinity value.}
 
-from fractions import Fraction as f
+# from fractions import Fraction as f
 # a=f(1,0)   #ZeroDivisionError: Fraction(1, 0)
 # a=f(1,1)
 # print(a)
@@ -61,3 +61,44 @@ from fractions import Fraction as f
 # f=25+654j
 # print(f,type(f))
 # print(isinstance(f, complex))
+
+from fractions import Fraction as F 
+# print(F(6,2))
+# print(F(2.5))
+# print(F('2.5'))
+# print(F("2.5"))
+# print(F(4.5))
+# print(F(5,0))   # ZeroDivisionError: Fraction(5, 0)
+# b=5/0  #  ZeroDivisionError: division by zero
+# v=F(5,20)
+# print(v)
+
+# f=25+54j
+# print(f,type(f))
+# print(f.real)
+# print(f.imag)
+
+# b=3*4.3j
+# print(b,type(b))
+# print(b.real)
+# print(b.imag)
+
+# print(1e0)
+# print(4e3)
+# print(4e0)
+# print(1e1)
+# print(1e2)
+# print(12e1)
+# print(12e3)
+
+# print(5*8)
+# print(4**3)
+# print(2**3)
+# print(2.5**3)
+# print(2.5**2)
+# print(1.2**2)
+
+# import math as m
+# print(m.exp(1))  # e=2.71828,  e*e*e
+# print(m.exp(3))
+# print(m.exp(55))
